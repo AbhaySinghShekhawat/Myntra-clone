@@ -141,6 +141,7 @@ nav > div:hover .studiosection {
   visibility: hidden;
   background-color: white;
   padding-left: 20px;
+  transition: 0.7s;
 }
 .womensection {
   width: 1140px;
@@ -153,6 +154,7 @@ nav > div:hover .studiosection {
   visibility: hidden;
   background-color: white;
   padding-left: 20px;
+  transition: 0.7s;
 }
 .kidsection {
   width: 1140px;
@@ -165,6 +167,7 @@ nav > div:hover .studiosection {
   visibility: hidden;
   background-color: white;
   padding-left: 20px;
+  transition: 0.7s;
 }
 .homesection {
   width: 1140px;
@@ -177,6 +180,7 @@ nav > div:hover .studiosection {
   visibility: hidden;
   background-color: white;
   padding-left: 20px;
+  transition: 0.7s;
 }
 .beautysection {
   width: 1140px;
@@ -189,6 +193,7 @@ nav > div:hover .studiosection {
   visibility: hidden;
   background-color: white;
   padding-left: 20px;
+  transition: 0.7s;
 }
 .studiosection {
   width: 545px;
@@ -202,6 +207,7 @@ nav > div:hover .studiosection {
   align-items: center;
   justify-content: center;
   background-color: white;
+  transition: 0.7s;
 }
 .men-1 {
   padding-left: 20px;
@@ -676,13 +682,14 @@ footer {
 .hp2-2 img {
   width: 450px;
   height: 346px;
-  transition: 0.5s;
+  transition: 1s;
 }
 .imgh {
   width: 450px;
   height: 346px;
   margin-left: 10px;
   overflow: hidden;
+  
 }
 .imgh1 {
   width: 450px;
@@ -691,8 +698,7 @@ footer {
   overflow: hidden;
 }
 .hp2-2 img:hover {
-  width: 455px;
-  height: 350px;
+transform: scale(1.1);
 }
 .hp3 {
   width: 385px;
@@ -731,11 +737,10 @@ footer {
 .hp4-1 img {
   width: 402px;
   height: 425px;
-  transition: 0.5s;
+  transition: 1s;
 }
 .hp4-1 img:hover {
-  width: 410px;
-  height: 435px;
+  transform: scale(1.1);
 }
 .hp5 {
   width: 100%;
@@ -754,7 +759,7 @@ footer {
   width: 1297px;
   display: flex;
   justify-content: space-around;
-  margin-left: 49px;
+  margin-left: 120px;
 }
 .hp5-1-1 {
   width: 237px;
@@ -765,10 +770,10 @@ footer {
 .hp5-1 img {
   width: 237px;
   height: 153px;
+  transition: 1s;
 }
 .hp5-1 img:hover {
-  width: 247px;
-  height: 163px;
+transform: scale(1.1);
 }
 .kp1 {
   width: 1310px;
